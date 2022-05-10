@@ -1,0 +1,128 @@
+body{ 
+    display:flex; 
+    flex-direction:column; 
+    position: relative;
+    min-height: 100vh;
+  }
+.navitem {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid black;
+    position: relative;
+    bottom: 20px;
+}
+
+.navitem h1 {
+    display: block;
+    margin-left: 0;
+    margin-right: auto;
+    position: relative;
+    top: 15px
+}
+
+.navitem button {
+    position: relative;
+    top: 10px;
+    margin-right: 20px;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box div{
+    position: relative;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 50px 40px;
+    width: 233px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box div p {
+    font-size: 1.1rem;
+    line-height: 12px;
+    margin: 6px;
+}
+
+.delete-checkbox {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+}
+.product_form {
+    display: table; 
+    position: relative;
+    bottom: 5px;
+}
+
+.delete_div {
+    position: relative;
+    bottom: 15px;
+}
+
+
+.product_form p{
+    display: table-row;
+}
+
+.product_form label input {
+    display: table-cell;
+}
+
+.furniProps {
+    display:none;    
+}
+
+.discProps {
+    display: none;
+}
+
+.bookProps {
+    display: none;
+}
+
+a { 
+    text-decoration: none;
+}
+
+a:visited {
+    color:#ffffff;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.btn-1 {
+    padding: 10px;
+    color: white;
+    background-color: rgb(8, 175, 8);
+    border: 1px solid green;
+    cursor: pointer;
+}
+
+.btn-2 {
+    padding: 10px;
+    color: white;
+    background-color: red;
+    border: 1px solid red;
+    cursor: pointer;
+}
+
+.footerdiv {
+    position: relative;
+    bottom: 0;
+    margin-top:auto; 
+    width: auto;
+    left: 10px;
+    right: 50px;
+    border-top: 2px solid black;
+    text-align: center;
+    font-size: 1rem;
+}
